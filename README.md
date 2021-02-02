@@ -12,30 +12,6 @@
 
 
 
-
-
-
-
-
-Kotlin项目中的配置方式
-
-// 可以参考 module-kotlin 模块中的写法
-apply plugin: 'kotlin-kapt'
-
-kapt {
-    arguments {
-        arg("AROUTER_MODULE_NAME", project.getName())
-    }
-}
-
-dependencies {
-    compile 'com.alibaba:arouter-api:x.x.x'
-    kapt 'com.alibaba:arouter-compiler:x.x.x'
-    ...
-}
-
-
-
 https://github.com/alibaba/ARouter
 
 
